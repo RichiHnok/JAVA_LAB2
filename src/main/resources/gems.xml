@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Gems xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="gems_schema.xsd">
+	<Gem gemId="a01" name="Рубин" origin="Мьянма">
+		<Preciousness>Драгоценный</Preciousness>
+		<VisualParametres>
+			<Color>Ярко-красный</Color>
+			<Transparency>90</Transparency>
+			<Cut>Круглая</Cut>
+		</VisualParametres>
+		<Value>2.5</Value>
+	</Gem>
+	<Gem gemId="a02" name="Сапфир" origin="Шри-Ланка">
+		<Preciousness>Драгоценный</Preciousness>
+		<VisualParametres>
+			<Color>Насыщенный синий</Color>
+			<Transparency>85</Transparency>
+			<Cut>Овальная</Cut>
+		</VisualParametres>
+		<Value>4</Value>
+	</Gem>
+	<Gem gemId="a03" name="Изумруд" origin="Колумбия">
+		<Preciousness>Драгоценный</Preciousness>
+		<VisualParametres>
+			<Color>Глубокий зеленый</Color>
+			<Transparency>80</Transparency>
+			<Cut>Ступенчатая</Cut>
+		</VisualParametres>
+		<Value>1.8</Value>
+	</Gem>
+	<Gem gemId="a04" name="Аметист" origin="Бразилия">
+		<Preciousness>Полудрагоценный</Preciousness>
+		<VisualParametres>
+			<Color>Насыщенный фиолетовый</Color>
+			<Transparency>92</Transparency>
+			<Cut>Овальная</Cut>
+		</VisualParametres>
+		<Value>6</Value>
+	</Gem>
+	<Gem gemId="a05" name="Гранат" origin="Танзания">
+		<Preciousness>Полудрагоценный</Preciousness>
+		<VisualParametres>
+			<Color>Темно-красный</Color>
+			<Transparency>88</Transparency>
+			<Cut>Круглая</Cut>
+		</VisualParametres>
+		<Value>1.5</Value>
+	</Gem>
+	<Gem gemId="a06" name="Топаз" origin="Бразилия">
+		<Preciousness>Полудрагоценный</Preciousness>
+		<VisualParametres>
+			<Color>Золотистый</Color>
+			<Transparency>90</Transparency>
+			<Cut>Овальная</Cut>
+		</VisualParametres>
+		<Value>8</Value>
+	</Gem>
+	<Gem gemId="a07" name="Аквамарин" origin="Бразилия">
+		<Preciousness>Полудрагоценный</Preciousness>
+		<VisualParametres>
+			<Color>Бледно-голубой</Color>
+			<Transparency>85</Transparency>
+			<Cut>Ступенчатая</Cut>
+		</VisualParametres>
+		<Value>12</Value>
+	</Gem>
+	<Gem gemId="a08" name="Цитрин" origin="Бразилия">
+		<Preciousness>Полудрагоценный</Preciousness>
+		<VisualParametres>
+			<Color>Лимонно-желтый</Color>
+			<Transparency>92</Transparency>
+			<Cut>Круглая</Cut>
+		</VisualParametres>
+		<Value>5</Value>
+	</Gem>
+	<Gem gemId="a09" name="Опал" origin="Австралия">
+		<Preciousness>Полудрагоценный</Preciousness>
+		<VisualParametres>
+			<Color>Радужный</Color>
+			<Transparency>88</Transparency>
+			<Cut>Овальная</Cut>
+		</VisualParametres>
+		<Value>2.2</Value>
+	</Gem>
+	<Gem gemId="a10" name="Хризолит" origin="Пакистан">
+		<Preciousness>Полудрагоценный</Preciousness>
+		<VisualParametres>
+			<Color>Глубокий зеленый</Color>
+			<Transparency>85</Transparency>
+			<Cut>Ступенчатая</Cut>
+		</VisualParametres>
+		<Value>6</Value>
+	</Gem>
+	<Gem gemId="a11" name="Турмалин" origin="Бразилия">
+		<Preciousness>Полудрагоценный</Preciousness>
+		<VisualParametres>
+			<Color>Разноцветный (зеленый, розовый)</Color>
+			<Transparency>90</Transparency>
+			<Cut>Овальная</Cut>
+		</VisualParametres>
+		<Value>3</Value>
+	</Gem>
+	<Gem gemId="a12" name="Александрит" origin="Россия">
+		<Preciousness>Драгоценный</Preciousness>
+		<VisualParametres>
+			<Color>Зелено-красный</Color>
+			<Transparency>87</Transparency>
+			<Cut>Овальная</Cut>
+		</VisualParametres>
+		<Value>1.2</Value>
+	</Gem>
+	<Gem gemId="a13" name="Циркон" origin="Таиланд">
+		<Preciousness>Полудрагоценный</Preciousness>
+		<VisualParametres>
+			<Color>Бесцветный</Color>
+			<Transparency>92</Transparency>
+			<Cut>Круглая</Cut>
+		</VisualParametres>
+		<Value>3</Value>
+	</Gem>
+	<Gem gemId="a14" name="Кунцит" origin="Афганистан">
+		<Preciousness>Полудрагоценный</Preciousness>
+		<VisualParametres>
+			<Color>Нежно-розовый</Color>
+			<Transparency>88</Transparency>
+			<Cut>Овальная</Cut>
+		</VisualParametres>
+		<Value>7</Value>
+	</Gem>
+	<Gem gemId="a15" name="Танзанит" origin="Танзания">
+		<Preciousness>Драгоценный</Preciousness>
+		<VisualParametres>
+			<Color>Фиолетово-синий</Color>
+			<Transparency>90</Transparency>
+			<Cut>Ступенчатая</Cut>
+		</VisualParametres>
+		<Value>3.5</Value>
+	</Gem>
+	<Gem gemId="a16" name="Жадеит" origin="Мьянма">
+		<Preciousness>Полудрагоценный</Preciousness>
+		<VisualParametres>
+			<Color>Ярко-зеленый</Color>
+			<Transparency>85</Transparency>
+			<Cut>Круглая</Cut>
+		</VisualParametres>
+		<Value>8</Value>
+	</Gem>
+</Gems>

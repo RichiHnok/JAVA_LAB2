@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="Gems">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Gem" type="GemType" minOccurs="16" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>		
+	</xs:element>
+
+	<xs:complexType name="GemType">
+		<xs:sequence>
+			<xs:element name= "Preciousness" type="PreciousnessType"/>
+			<xs:element name="VisualParametres" type="VisualParametresType"/>
+			<xs:element name="Value" type="xs:double"/>
+		</xs:sequence>
+		<xs:attribute name="gemId" type="xs:ID" use="required"/>
+		<xs:attribute name="name" type="xs:string" use="required"/>
+		<xs:attribute name="origin" type="xs:string" use="optional" default="Unknown"/>
+	</xs:complexType>
+
+	<xs:simpleType name="PreciousnessType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Драгоценный"/>
+			<xs:enumeration value="Полудрагоценный"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:complexType name="VisualParametresType">
+		<xs:sequence>
+			<xs:element name="Color" type="xs:string"/>
+			<xs:element name="Transparency" type="xs:int"/>
+			<xs:element name="Cut" type="CutType"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:simpleType name="CutType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Овальная"/>
+			<xs:enumeration value="Ступенчатая"/>
+			<xs:enumeration value="Круглая"/>
+		</xs:restriction>
+	</xs:simpleType>
+</xs:schema>
